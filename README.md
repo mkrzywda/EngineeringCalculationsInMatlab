@@ -1,5 +1,5 @@
 # Pakiety numeryczne / Obliczenia inżynierskie w Matlabie
-Rozwiązywanie różnych problemów matematycznych i technicznych przy pomocy MATLAB
+Rozwiązywanie różnych problemów matematycznych i technicznych przy pomocy MATLAB  
   1.Wprowadzenie  
   2.Operatory, instrukncje sterujące, operacje bitowe  
   3.Tablice  
