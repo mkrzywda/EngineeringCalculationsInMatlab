@@ -1,0 +1,23 @@
+close all; clear all; clc;
+% Wykresy 3D
+x=linspace(-pi,pi,31);
+y=linspace(-pi/2,pi/2,31);
+z=sin(x).*cos(y);
+figure;
+plot3(x,y,z);
+[X,Y]=meshgrid(x,y);
+Z=sin(X).*cos(Y);
+figure;
+plot3(X,Y,Z);
+figure;
+mesh(x,y,Z);
+figure;
+surf(x,y,Z);
+figure;
+contour(x,y,Z);
+figure;
+contour(x,y,Z,20);
+figure;
+contourf(x,y,Z,20);
+figure;
+contour3(x,y,Z,20);
